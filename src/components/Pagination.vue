@@ -102,4 +102,23 @@ export default {
   margin-left: 20px;
 }
 
+/* aplicando medias queries */
+
+@media  (min-width: 300px) {
+  .btn-next, .btn-prev{
+    justify-items: center;
+    margin-top: 20px;
+    background: violet;
+  } 
+}
+
+@media  (min-width: 1200px) {
+  .btn-next, .btn-prev{
+    justify-items: center;
+    margin-top: 20px;
+    background: aqua;
+  } 
+}
+
+
 </style>
